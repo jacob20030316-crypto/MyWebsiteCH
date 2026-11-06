@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>吴德昊的个人主页</title>
+  <meta name="description" content="吴德昊（Dehao Wu）的中文个人主页：UIUC 硕士研究生，研究方向为智能体人工智能。">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <script>
+    // 默认深色模式；访客手动切换过就记住他的选择
+    (function () {
+      var t = 'dark';
+      try { t = localStorage.getItem('dw-cn-theme') || 'dark'; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top">吴德昊</a>
+      <div class="nav-links">
+        <a href="#research">研究成果</a>
+        <a href="#education">教育经历</a>
+        <a href="#experience">工作经历</a>
+        <a href="#hobbies">兴趣爱好</a>
+        <a class="lang" href="https://jacob20030316-crypto.github.io/" title="English version">EN</a>
+        <button class="theme-btn" type="button" aria-label="切换深色/浅色模式">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <canvas class="hero-net" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">来自河南 · 现居美国伊利诺伊州香槟</p>
+        <h1 class="hero-name">吴德昊</h1>
+        <p class="hero-en">Dehao Wu · Jacob Wood</p>
+        <p>大家好！我是吴德昊，英文名 Dehao Wu，也可以叫我 Jacob Wood。我现在在<strong>美国伊利诺伊大学厄巴纳-香槟分校（UIUC）</strong>读硕士，导师是 ChengXiang Zhai 教授和 Haohan Wang 教授。</p>
+        <p>我目前的研究方向是<strong>智能体人工智能</strong>（Agentic AI），重点是：<strong>用多智能体系统辅助科学发现</strong>、<strong>可复用的智能体系统</strong>，以及<strong>可信人工智能</strong>。</p>
+        <p class="plain">💡 简单来说：就是让多个 AI 像一个团队一样分工合作，帮科学家分析海量的生物医学数据；同时想办法让 AI 做事更可靠、更值得信任。</p>
+      </div>
+      <figure class="hero-photo">
+        <img src="img/me.jpg" alt="吴德昊的照片" width="800" height="800">
+      </figure>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="research">
+      <h2 class="sec-title"><span class="sec-num">01 /</span>研究成果</h2>
+      <p class="sec-intro">论文都是英文写的，下面每篇都附了中文标题和通俗说明。</p>
+      <ol class="papers">
+        <li class="paper">
+          <h3 class="paper-title">大规模智能体分析：找出跨越不同疾病和患者群体的共同"调控开关"</h3>
+          <p class="paper-en">Large-scale agentic analysis identifies recurrent regulators linking diseases across patient subgroups</p>
+          <p class="paper-authors"><b>Dehao Wu</b>, Yuting Liao, Qiqi Xie, Yang Li, Haohan Wang</p>
+          <div class="paper-meta"><span class="venue">npj Systems Biology and Applications</span><span class="status review">审稿中</span><span class="role">第一作者</span></div>
+          <p class="paper-plain">让多个 AI 智能体自动分析 132 种疾病、15 万多份样本的基因数据，比较了 21 万多对患者群体，找出不同疾病背后共同起作用的关键基因。</p>
+        </li>
+        <li class="paper">
+          <h3 class="paper-title">智能体 AI 揭示人体不同组织间共同的蛋白质协同规律</h3>
+          <p class="paper-en">Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis</p>
+          <p class="paper-authors"><b>Dehao Wu</b>*, Runyu Guan*, Qiqi Xie, Yang Li, Haohan Wang <span class="note">（* 共同第一作者）</span></p>
+          <div class="paper-meta"><span class="venue">Bioinformatics</span><span class="status review">审稿中</span><span class="role">共同第一作者</span></div>
+          <p class="paper-plain">用 AI 智能体分析人体 41 种组织和体液里蛋白质的"同涨同落"关系，发现了只看单一数据时看不到的规律，可以帮助研究跨器官的疾病。</p>
+        </li>
+        <li class="paper">
+          <h3 class="paper-title">关注你需要的：识别图文"反话"的全局到局部注意力方法</h3>
+          <p class="paper-en">Focus on What You Need: Global-to-Local Dynamic Attention for Multimodal Sarcasm Detection</p>
+          <p class="paper-authors"><b>Dehao Wu</b>, Xingjie Zhuang</p>
+          <div class="paper-meta"><span class="venue">ICASSP 2027</span><span class="status review">审稿中</span><span class="role">第一作者</span></div>
+          <p class="paper-plain">让 AI 同时看社交媒体上的文字和配图，判断这条帖子是不是在"说反话"（讽刺）。</p>
+        </li>
+        <li class="paper">
+          <h3 class="paper-title">智能体的"最后一场考试"</h3>
+          <p class="paper-en">Agents' Last Exam</p>
+          <p class="paper-authors">Yiyou Sun, Xinyang Han, Weichen Zhang, …, <b>Dehao Wu</b>, …, Dawn Song</p>
+          <div class="paper-meta"><span class="venue">NeurIPS 2026</span><span class="status accepted">已录用</span><span class="role">数据贡献者</span></div>
+          <p class="paper-plain">一套给 AI 智能体出的高难度"考试题"，由 250 多位行业专家参与设计。我负责设计了其中两道题：一道是乳腺癌基因数据分析，一道是数学定理证明。</p>
+        </li>
+        <li class="paper">
+          <h3 class="paper-title">在测试时用可复用组件为每个任务组装专属的智能体框架</h3>
+          <p class="paper-en">Composing Task-specific Agent Harnesses at Test Time with Reusable Primitives</p>
+          <p class="paper-authors">Peng Kuang, Haibo Jin, <b>Dehao Wu</b>, Feiyang Deng, Xiaopeng Yuan, Jerry Wang, Haohan Wang</p>
+          <div class="paper-meta"><span class="venue">ICLR 2027</span><span class="status review">审稿中</span><span class="role">第三作者</span></div>
+          <p class="paper-plain">让 AI 根据不同的任务，从"零件库"里挑出合适的工作方法组装起来，而不是一套方法用到底，成功率最多提高 12 个百分点。</p>
+        </li>
+        <li class="paper">
+          <h3 class="paper-title">像搭积木一样用可复用代码组件构建完整软件项目</h3>
+          <p class="paper-en">Large-scale Repository Engineering via Agent-Native Reusable Code Primitives</p>
+          <p class="paper-authors">Haibo Jin, Peng Kuang, Xucheng Yu, Jerry Wang, <b>Dehao Wu</b>, Haohan Wang</p>
+          <div class="paper-meta"><span class="venue">ICLR 2027</span><span class="status review">审稿中</span><span class="role">第五作者</span></div>
+          <p class="paper-plain">像搭乐高一样，让 AI 用 1,424 个现成、经过测试的"代码积木"拼出完整的软件项目，测试的 13 个 AI 模型效果全部提升。</p>
+        </li>
+      </ol>
+      <p class="tip">📌 小知识："审稿中"是指论文已经投出去，正在由同行专家评审；"已录用"是指已经通过评审、正式被接收。NeurIPS、ICLR 都是人工智能领域的顶级国际会议。</p>
+    </section>
+
+    <section id="education">
+      <h2 class="sec-title"><span class="sec-num">02 /</span>教育经历</h2>
+      <ul class="timeline">
+        <li>
+          <div class="tl-head"><span class="tl-main">美国伊利诺伊大学厄巴纳-香槟分校（UIUC）</span><span class="tl-time">预计 2027 年 5 月毕业</span></div>
+          <div class="tl-sub"><span>硕士研究生</span><span class="tl-loc">美国伊利诺伊州</span></div>
+          <div class="chips"><span class="chip">GPA 4.00 / 4.00（满分）</span></div>
+          <ul class="awards"><li>🏆 Gorecki 奖学金</li></ul>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">西南石油大学</span><span class="tl-time">2021.09 – 2025.06</span></div>
+          <div class="tl-sub"><span>人工智能专业 · 工学学士</span><span class="tl-loc">中国四川</span></div>
+          <div class="chips"><span class="chip">GPA 4.01 / 5.00</span><span class="chip">专业排名 1 / 77</span></div>
+          <ul class="awards">
+            <li>🏆 省级优秀毕业生（2025）</li>
+            <li>🏆 优秀学生干部（2023）</li>
+            <li>🏆 一等学业奖学金（连续四年，2021–2025）</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">美国德克萨斯大学奥斯汀分校</span><span class="tl-time">2024.07 – 2024.08</span></div>
+          <div class="tl-sub"><span>暑期学术项目</span><span class="tl-loc">美国得克萨斯州</span></div>
+          <div class="chips"><span class="chip">GPA 4.00 / 4.00（满分）</span></div>
+          <ul class="awards"><li>🎓 在 Kia Teymourian 教授指导下完成学术项目</li></ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2 class="sec-title"><span class="sec-num">03 /</span>工作经历</h2>
+      <ul class="timeline">
+        <li>
+          <div class="tl-head"><span class="tl-main">研究助理</span><span class="tl-time">2026.01 – 至今</span></div>
+          <div class="tl-sub"><span>UIUC DREAM 实验室</span><span class="tl-loc">美国香槟</span></div>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">研究助理</span><span class="tl-time">2025.09 – 至今</span></div>
+          <div class="tl-sub"><span>UIUC TIMAN 实验室</span><span class="tl-loc">美国香槟</span></div>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">大语言模型算法工程师（实习）</span><span class="tl-time">2025.04 – 2025.06</span></div>
+          <div class="tl-sub"><span>中国科学院 IICT</span><span class="tl-loc">中国苏州</span></div>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">数据分析（实习）</span><span class="tl-time">2024.08 – 2024.10</span></div>
+          <div class="tl-sub"><span>京东集团</span><span class="tl-loc">中国北京</span></div>
+        </li>
+        <li>
+          <div class="tl-head"><span class="tl-main">人工智能算法工程师（实习）</span><span class="tl-time">2023.07 – 2023.10</span></div>
+          <div class="tl-sub"><span>湖南智周科技（北京）</span><span class="tl-loc">中国北京</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2 class="sec-title"><span class="sec-num">04 /</span>兴趣爱好</h2>
+      <ul class="hobbies">
+        <li><button type="button" class="hobby" data-photos="img/football-1.jpg,img/football-2.jpg"><span class="hobby-icon">⚽</span><b>足球</b><span class="hobby-hint">📷</span></button></li>
+        <li><button type="button" class="hobby" data-photos="img/xiangsheng.jpg"><span class="hobby-icon">🎭</span><b>相声</b><span class="hobby-hint">📷</span></button></li>
+        <li><button type="button" class="hobby" data-note="敬请期待"><span class="hobby-icon">💪</span><b>健身</b><span class="hobby-hint">⏳</span></button></li>
+      </ul>
+      <p class="tip">👆 点一下卡片可以看照片</p>
+    </section>
+  </main>
+
+  <footer class="foot">© <span id="year">2026</span> 吴德昊</footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="照片">
+    <button class="lightbox-close" type="button" aria-label="关闭">✕</button>
+    <div class="lightbox-photos"></div>
+    <div class="lightbox-note"><span>💪</span><p></p></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
