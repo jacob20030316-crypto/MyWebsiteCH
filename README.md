@@ -1,3 +1,5 @@
 # 吴德昊的中文个人主页
 
-给家人看的中文版个人主页（纯静态页面，不依赖任何外部资源）。英文主页：https://jacob20030316-crypto.github.io/
+网址：https://jacob20030316-crypto.github.io/MyWebsiteCH/
+
+英文主页：https://jacob20030316-crypto.github.io/
